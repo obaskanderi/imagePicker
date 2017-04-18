@@ -1,0 +1,34 @@
+PODS:
+  - ABVideoRangeSlider (0.1.5)
+  - Agrume (3.2.1)
+  - ImagePicker (0.1.0):
+    - ABVideoRangeSlider
+    - TGPControls (~> 4.0.0)
+  - TGPControls (4.0.0)
+
+DEPENDENCIES:
+  - ABVideoRangeSlider (from `https://github.com/obaskanderi/ABVideoRangeSlider`, branch `dev`)
+  - Agrume
+  - ImagePicker (from `../`)
+
+EXTERNAL SOURCES:
+  ABVideoRangeSlider:
+    :branch: dev
+    :git: https://github.com/obaskanderi/ABVideoRangeSlider
+  ImagePicker:
+    :path: ../
+
+CHECKOUT OPTIONS:
+  ABVideoRangeSlider:
+    :commit: e43dd47de143e48bccb9cb8edbd88580f2962007
+    :git: https://github.com/obaskanderi/ABVideoRangeSlider
+
+SPEC CHECKSUMS:
+  ABVideoRangeSlider: 10e6183bf46c3d8977af872a16a28b1dfe81a80f
+  Agrume: 4ae2e2b112673e9353db5e85c8d4b49f46f93456
+  ImagePicker: 388b4b2a216921533c9cde88610860b667e29316
+  TGPControls: d7ab5a338746c100b2ae57f6b6cedee7151f116a
+
+PODFILE CHECKSUM: cfa2c5a5dc12d0b14071c3b8591d20e126acff8e
+
+COCOAPODS: 1.2.0

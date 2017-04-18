@@ -1,6 +1,8 @@
 use_frameworks!
 
 target 'ImagePicker_Example' do
+  pod 'Agrume'
+  pod 'ABVideoRangeSlider', :git => 'https://github.com/obaskanderi/ABVideoRangeSlider', :branch => 'dev'
   pod 'ImagePicker', :path => '../'
 
   target 'ImagePicker_Tests' do
