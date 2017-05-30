@@ -1,13 +1,15 @@
 use_frameworks!
 
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/obaskanderi/podspecs'
+
 target 'ImagePicker_Example' do
   pod 'Agrume'
-  pod 'ABVideoRangeSlider', :git => 'https://github.com/obaskanderi/ABVideoRangeSlider', :branch => 'dev'
+  pod 'ABVideoRangeSlider', '~> 0.1.6'
   pod 'ImagePicker', :path => '../'
 
   target 'ImagePicker_Tests' do
     inherit! :search_paths
-
-    
   end
 end

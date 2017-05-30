@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
      'ImagePicker' => ['ImagePicker/Resources/*']
   }
   s.frameworks = 'Photos'
-  s.dependency 'ABVideoRangeSlider'
+  s.dependency 'ABVideoRangeSlider', '0.1.6'
   s.dependency 'TGPControls', '~> 4.0.0'
 end
